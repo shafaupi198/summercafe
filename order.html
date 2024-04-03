@@ -1,0 +1,121 @@
+<html>
+    <head>
+        <title></title>
+        <style>
+            *{
+            box-sizing: border-box;
+            }
+
+            body{
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            line-height: 70px;
+            padding: 10px;
+            background: white;
+            }
+            .header{
+                margin: -18px;
+                padding: 170px;
+                text-align: center;
+                background-image: url(img/menuheader.png);
+                background-size: cover;
+            }
+            .bannertext{
+                font-size: 80px;
+                font-weight: bolder;
+                color: white;
+            }
+            .scriptfont{
+                font-family: rage;
+                font-size: 50px;
+                color: white;
+            }
+
+            .greenbutton{
+                background-color: #23A393;
+                color: white;
+                padding: 0px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 18px;
+                font-weight: bold;
+                border-radius: 20px;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="header">
+            <div class="scriptfont">Summer Cafe</div>
+            <div class="bannertext">PESAN ANTAR</div> 
+        </div><br>
+
+        <form>
+        <table align="center" border="0" style="width: 800; font-family: poppins;">
+            <tr>
+                <td style="width: 150;"></td>
+                <td>
+                    <label for="name" style="font-size: 15; margin: 8px;">Nama Lengkap</label><br>
+                    <input type="text" id="name" name="name" style="font-family: poppins; color: rgb(0, 0, 0); padding: 14px 20px; border: none; 
+                    display: inline-block; box-sizing: border-box; width: 100%; margin: 8px; border: 1px solid #ccc; border-radius: 4px;" 
+                    placeholder="Masukkan Nama Anda"><br>
+                </td>
+                <td style="width: 150;"></td>
+            </tr>
+            <tr>
+                <td style="width: 150;"></td>
+                <td>
+                    <label for="almt" style="font-size: 15; margin: 8px;">Alamat</label><br>
+                    <textarea name="almt" id="almt" rows="3" cols="20" name="almt" style="font-family: poppins; color: rgb(0, 0, 0); padding: 14px 20px; border: none; 
+                    display: inline-block; box-sizing: border-box; width: 100%; margin: 8px; border: 1px solid #ccc; border-radius: 4px;" 
+                    placeholder="Masukkan Alamat Anda"></textarea><br>
+                </td>
+                <td style="width: 150;"></td>
+            </tr>
+            <tr>
+                <td style="width: 150;"></td>
+                <td>
+                    <label for="pesan" style="font-size: 15; margin: 8px;">Masukkan Pesanan</label><br>
+                    <input type="text" id="pesan" name="pesan" style="font-family: poppins; color: rgb(0, 0, 0); padding: 14px 20px; border: none; 
+                    display: inline-block; box-sizing: border-box; width: 100%; margin: 8px; border: 1px solid #ccc; border-radius: 4px;" 
+                    placeholder="Masukkan Alamat Email Anda"><br>
+                </td>
+                <td style="width: 150;"></td>
+            </tr>
+            <tr>
+                <td style="width: 150;"></td>
+                <td>
+                    <label for="jum" style="font-size: 15; margin: 8px;">Jumlah</label><br>
+                    <input type="number" id="jum" name="jum" style="font-family: poppins; color: rgb(0, 0, 0); padding: 14px 20px; border: none; 
+                    display: inline-block; box-sizing: border-box; width: 100%; margin: 8px; border: 1px solid #ccc; border-radius: 4px;" 
+                    placeholder="Masukkan Jumlah Pesanan"><br>
+                </td>
+                <td style="width: 150;"></td>
+            </tr>
+            <tr>
+                <td style="width: 150;"></td>
+                <td>
+                    <label for="hp" style="font-size: 15; margin: 8px;">Nomor Telepon</label><br>
+                    <input type="text" id="hp" name="hp" style="font-family: poppins; color: rgb(0, 0, 0); padding: 14px 20px; border: none; 
+                    display: inline-block; box-sizing: border-box; width: 100%; margin: 8px; border: 1px solid #ccc; border-radius: 4px;" 
+                    placeholder="Masukkan Nama Makanan atau Minuman"><br>
+                </td>
+                <td style="width: 150;"></td>
+            </tr>
+            
+        </table><br><br>
+        <table align="center" border="0" style="width: 800; font-family: poppins;">
+            <tr>
+                <td align="center" style="line-height: 1.5;">
+                    <input type="submit" value="Submit" style="width: 100%; background-color: #334257; color: white;
+                    padding: 14px 20px; margin: 8px 0; border: none; border-radius: 4px; cursor: pointer;
+                     font-family: poppins; font-size: 15;">
+                </td>
+            </tr>
+        </table><br><br>
+        
+
+
+    </form>
+    </body>
+</html>

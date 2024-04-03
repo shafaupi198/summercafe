@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+body{
+    background-color: #f3f5f9;
+ }
+
+
+.kotak{
+  display: flex;
+  position: relative;
+}
+
+.kotak .sidebar{
+  width: 250px;
+  height: 100%;
+  background: #02755e;
+  padding: 18px 0px;
+  position: fixed;
+}
+
+.kotak .sidebar h2{
+    color: #ffa947;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.kotak .sidebar h3{
+    color: #f3f5f9;
+    font-size: 20px;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.kotak .sidebar img{
+    width: 80px;
+    margin-right: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+
+.kotak .sidebar ul li{
+  padding: 15px;
+  border-bottom: 1px solid #bdb8d7;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  border-top: 1px solid rgba(255,255,255,0.05);
+}    
+
+.kotak .sidebar ul li a{
+  color: #ffffff;
+  text-align: center;
+  display: block;
+}
+
+.kotak .sidebar ul li a .fas{
+  width: 25px;
+}
+
+.kotak .sidebar ul li:hover{
+  background-color: #034b3c;
+}
+
+.kotak .sidebar ul li:hover a{
+  color: #fff;
+}
+ 
+.kotak .main_content{
+  width: 100%;
+  margin-left: 250px;
+}
+
+.kotak .main_content .header{
+  padding: 20px;
+  text-align: right;
+  background: #fff;
+  color: #717171;
+  border-bottom: 1px solid #e0e4e8;
+}
+
+.kotak .main_content .info{
+  margin: 20px;
+  color: #717171;
+  line-height: 25px;
+  margin-bottom: 100px;
+}
+
+.kotak .main_content .info div{
+  margin-bottom: 20px;
+}
+
+.tbl{
+    width: 100%;
+    border: 1px black;
+}
+
+/*------------------------*/
+/*----------FONT-----------*/
+/*------------------------*/
+.head1{
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.head2{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.head2{
+    font-size: 10px;
+    font-weight: normal;
+}
+
+
+/*------------------------*/
+/*---------FORM----------*/
+/*------------------------*/
+
+.search-box{
+    width: 200px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border-style: none;
+    height: 40px;
+    margin-bottom: 0;
+    outline: none;
+	padding-left: 10px;
+}
+
+.btn-small{
+    height: 40px;
+	width: 60px;
+	border: 0px;
+    color: white;
+	border-left: none;
+	background:#ffa947!important;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+	cursor: pointer;
+	outline: none;
+    border-radius: 5px;
+	transition: 0.2s ease-out;
+    font-size: 15px;
+}
+
+.btn-logout{
+    height: 40px;
+	width: 80px;
+	border: 0px;
+    color: white;
+	border-left: none;
+	background: #02755e!important;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+	cursor: pointer;
+	outline: none;
+    border-radius: 5px;
+	transition: 0.2s ease-out;
+    font-size: 15px;
+}
+
+.btn-large{
+    height: 40px;
+	width: 200px;
+	border: 0px;
+    color: white;
+    font-size: 15px;
+	border-left: none;
+	background:#ffa947!important;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+	cursor: pointer;
+	outline: none;
+    border-radius: 5px;
+	transition: 0.2s ease-out;
+}
+
+.form{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border-style: none;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: -20px;
+    margin-left: 50px;
+    outline: none;
+    width: 500px;
+    font-size: 13px;
+    margin-top: 10px;
+
+}
+
+label{
+    margin-left: 50px;
+}
+
+/*------------------------*/
+/*---------TABLE----------*/
+/*------------------------*/
+
+
+.table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.table th,
+.table td {
+    padding: 12px 15px;
+    text-align: center;
+}
+
+.table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.table tbody tr:last-of-type {
+    border-bottom: 2px solid #ffa947;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .table {
+        width: 400px;
+    }
+  
+}
